@@ -10,7 +10,7 @@ variable "default_branch" {
   default     = "master"
 }
 
-variable tags = {
+variable tags {
   type = map
   default = {}
 }
